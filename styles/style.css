@@ -108,6 +108,18 @@ body{
 }
 
 
+.other-amount{
+  text-align: center;
+  margin: 0;
+}
+.underline{
+  width: 691px;
+}
+.button{
+  text-align: center;
+}
+
+
 
 
 
@@ -139,9 +151,15 @@ body{
   margin: 0 auto;
 }
 
+ .amount{
+  text-align: center;
 }
 
+.underline{
+  width: 100%;
+}
 
+}
 
 @media screen and (min-width: 576px) and (max-width: 992px){
   .header-section{
@@ -151,8 +169,8 @@ body{
 
   }
 
-  .header-section-container{
-    padding: 20px ;
+   .header-section-container{
+    padding: 50px ;
     margin: 0 auto;
   }
   .header-title{
@@ -162,10 +180,5 @@ body{
   .donate-container{
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-}
-
-
-
-
-}
-
+} 
+} 
