@@ -120,6 +120,66 @@ body{
 }
 
 
+/* our-donate-plane section styles */
+
+.our-donate-plane{
+  margin: 130px auto;
+  max-width: 691px;
+  height: 130px;
+  text-align: center;
+}
+
+.donate-plane-title{
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #121212;
+  margin-bottom: 20px
+  
+}
+
+.donate-plane-description{
+  font-size: 1.28rem;
+  font-weight: 400;
+  color: #707070;
+}
+
+.our-donate-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.donate-card1{
+  border-radius: 5px;
+  background: rgba(79, 157, 166, 0.1);
+  padding: 20px 20px;
+  text-align: start;
+  
+}
+
+.donate-card2{
+  border-radius: 5px;
+  background: rgba(255, 89, 89, 0.1);;
+  padding: 20px 20px;
+  text-align: start;
+  
+}
+
+.donate-card3{
+  border-radius: 5px;
+  background: rgb(249, 249, 228);
+  padding: 20px 20px;
+  text-align: start;
+  
+}
+
+
+
+
+
+
+
 
 
 
@@ -143,7 +203,8 @@ body{
   }
 
 
- .donate-container{
+ .donate-container,
+ .our-donate-container{
   grid-template-columns: repeat(1, 1fr);
   gap: 10px;
 } 
@@ -157,6 +218,17 @@ body{
 
 .underline{
   width: 100%;
+}
+
+.our-donate-container{
+  padding: 20px ;
+}
+
+.donate-card1{
+  margin-bottom: 20px;
+}
+.donate-card2{
+  margin-bottom: 20px;
 }
 
 }
@@ -181,4 +253,10 @@ body{
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 } 
+
+.our-donate-container{
+  gap: 30px;
+}
+
+
 } 
